@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusiqHunt_SA</title>
+    <link rel="stylesheet" href="style.css"><!--CSS STYLESHEET-->
+    <script src="https://use.fontawesome.com/8c5e977b71.js"></script><!--FONT AWESOME-->
+</head>
+<body>
+    <!--HEADER-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">MUSIQHUNT</a>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Shop</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Sell</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--HOME-->
+        <section class="home">
+            <div class="home__container bd-grid">
+                <div class="home__img">
+                    <img src="images/hero1.jpg" class="move" data-speed="2" alt="">
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">MusiqHunt</h1>
+                    <p class="home__description">The <span>best</span> way to buy & sell pre-owned audio gear.</p>
+                    <a href="#" class="home__button">Buy</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--GSAP ANIMATION-->
+    <script src="gsap.min.js"></script>
+
+    <!--JS-->
+    <script src="main.js"></script>
+</body>
+</html>
