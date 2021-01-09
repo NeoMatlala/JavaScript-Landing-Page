@@ -10,4 +10,4 @@ The Landing page is a redesign of my friend's online music store(https://musiqhu
 
 
 ## See it live
-Here's the live link: https://neomatlala.github.io/Landing-Page/
+Here's the live link: https://neomatlala.github.io/JavaScript-Landing-Page/
